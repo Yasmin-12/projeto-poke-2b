@@ -1,21 +1,15 @@
-import poke from "./assets/pokeapi_256.png"
-import eevee from "./assets/eevee.jpg"
-import './Home.css'
-import PokeFlex from "./PokeFlex"
-import PokeGrid from "./PokeGrid"
- 
-const Home = ()=> {
-    return (
+import './Home.css'; 
+import PokeFlex from "./PokeFlex";
+import PokeGrid from "./PokeGrid";
 
-        <div className="Home">
-
+const Home = () => {
+  return (
+      <div className="Home">
           <h1>Home</h1>
-          <PokeFlex/>
-          <PokeGrid/>
-        </div>
-    );
-    
+          <PokeFlex />
+          <PokeGrid />
+      </div>
+  );
 };
- 
-export default Home
- 
+
+export default Home;
