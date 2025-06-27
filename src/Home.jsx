@@ -9,12 +9,13 @@ const Home = ()=> {
 
         <div className="Home">
 
-            <PokeFlex/>
-            <PokeGrid/>
+          <h1>Home</h1>
+          <PokeFlex/>
+          <PokeGrid/>
         </div>
-      
-    )
-}
+    );
+    
+};
  
 export default Home
  
